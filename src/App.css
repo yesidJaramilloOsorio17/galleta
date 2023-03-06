@@ -1,0 +1,44 @@
+
+
+  
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+   
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+.title {
+color: chocolate;
+text-decoration:overline;
+}
+  
+button {
+    background-image: url(/public/gif1.gif);
+    background-size: 200px ;
+    background-position: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: chocolate;text-align: start;
+    border: none;
+  }
+  
+  .user-card {
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 70px;
+    margin-bottom: 20px;
+  }
